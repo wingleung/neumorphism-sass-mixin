@@ -1,0 +1,27 @@
+@import 'neumorphic-mixin';
+
+$background: #8AAF96;
+// $background: #D64A13;
+// $background: #CC4A86;
+// $background: #EEBB74;
+// $background: #9FAFB6;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: $background;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.neumorphic-element {
+  @include neumorphism($background);
+
+  width: 50vw;
+  height: 50vw;
+  border-radius: 15%;
+}

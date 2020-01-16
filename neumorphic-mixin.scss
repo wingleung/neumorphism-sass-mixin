@@ -1,0 +1,9 @@
+@mixin neumorphism($background) {
+  $highlight: lighten($background, 4%);
+  $lowlight: darken($background, 4%);
+  $shadowhigh: lighten($background, 9%);
+  $shadowlow: darken($background, 9%);
+
+  background: linear-gradient(145deg, $highlight, $lowlight); // new rgb(92,188,244)
+  box-shadow: 2em 2em 4em $shadowlow, -2em -2em 4em $shadowhigh;
+}
