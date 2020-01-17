@@ -4,7 +4,7 @@
 	<img src="media/neumorphic-bg.png" alt="Save Page State">
 </div>
 
-> A sass mixin for neumorphic elements
+> A sass mixin to create neumorphic elements
 
 ## Install
 
