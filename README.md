@@ -1,4 +1,4 @@
-# Neumorphic sass mixin
+# Neumorphism (Soft UI) sass mixin
 
 <div align="center">
 	<img src="media/neumorphic-bg.png" alt="Save Page State">
